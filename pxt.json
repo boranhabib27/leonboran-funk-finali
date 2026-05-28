@@ -1,0 +1,34 @@
+{
+    "name": "leonboran funk finali",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "funk": "*",
+        "morse": "github:bsiever/pxt-morse#v2.0.1",
+        "clicks": "github:bsiever/microbit-pxt-clicks",
+        "datalogger": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "master",
+        "tag": "v8.1.11",
+        "commits": "https://github.com/microsoft/pxt-calliope/commits/41d6b631a7a67619a6119b755d3db06cab4d72f8",
+        "target": "8.1.11",
+        "pxt": "12.2.8",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "ignoreConflicts": true
+    }
+}
